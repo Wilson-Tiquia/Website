@@ -1,0 +1,112 @@
+/*Scroll bar */
+body 
+{
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+/*Location of logo*/
+div#logo
+{   
+    position: relative;
+    top:20px;
+    left:50px;
+}
+/* Font of hoe contact about */
+div#homeContactAbout a 
+{
+    text-decoration: none;
+    color:grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+/*Effect change color when hover sa home contact about*/
+div#homeContactAbout a:hover 
+{
+    color:red;
+}
+/*Spacing of the links align horizontal*/
+div#homeContactAbout ul li 
+{
+    list-style-type: none;
+    float:left;
+    padding-right: 50px;
+    position: relative;
+    left:850px;
+    top:-30px;
+}
+/*starting position ng div center*/
+div#center
+{
+    position: relative;
+    left:200px;
+}
+/*Location of main pic*/
+div#mainPicture
+{
+    position: absolute;
+    top:-14px;   
+}
+/*Position ng mga text starting*/
+div#centerText
+{
+    position: relative;
+    top:540px;
+    left: 190px;
+}
+/*Font of name*/
+h1#name 
+{   
+    position: absolute;
+    font-family: 'Rozha One', serif;
+    font-size: 70px;
+}
+/*font of career and position absolute kasi sa center text eto kulay*/
+h2#career
+{
+    position: absolute;
+    top:135px;
+    left:50px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    word-spacing: 5px;
+    color:grey;
+}
+/*Start ng project collection*/
+div#projectCollection
+{
+    position:relative;
+    top:800px;
+    left:50px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+/*Starting location ng first image*/
+div.project 
+{
+    position: absolute;
+}
+/*Starting effect*/
+div.effect
+{
+    position: absolute;
+    background-color: grey;
+    width: 525px;
+    height: 400px;
+    top:0px;
+    left:0px;
+    opacity: 75%;
+    display: none;
+}
+/*PROJECT TITLE CUSTOMIZATION*/
+h1.projectTitle
+{
+    position: absolute;
+    top:120px;
+    font-family: 'Rozha One', serif;
+    font-size: 80px;
+}
+div.project:hover div.effect
+{
+    display: inline;
+}
