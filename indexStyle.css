@@ -9,7 +9,7 @@ div#logo {
   top: 20px;
   left: 50px;
 }
-/* Font of hoe contact about */
+/* Font of home contact about */
 div#homeContactAbout a {
   text-decoration: none;
   color: grey;
@@ -20,42 +20,43 @@ div#homeContactAbout a {
 div#homeContactAbout a:hover {
   color: red;
 }
-/*Spacing of the links align horizontal*/
-div#homeContactAbout ul li {
+/*Remove bullet in the list Location set den*/
+div#homeContactAbout ul {
   list-style-type: none;
+  position: relative;
+  left:900px;
+  top:-30px;
+}
+/*Spacing in home contact about*/
+div#homeContactAbout li {
   float: left;
   padding-right: 50px;
+}
+/*para mag wrap yung main pic*/
+div#mainPicture{
+  
+  display: flex;
+  flex-wrap:wrap
+}
+/*Pwesto ng malaking pic sa gitna*/
+img#pic {
   position: relative;
-  left: 850px;
-  top: -30px;
+  right:125px;
+  top:-20px;
 }
-/*starting position ng div center*/
-div#center {
-  position: relative;
-  left: 200px;
-}
-/*Location of main pic*/
-div#mainPicture {
-  position: absolute;
-  top: -14px;
-}
-/*Position ng mga text starting*/
-div#centerText {
-  position: relative;
-  top: 540px;
-  left: 190px;
-}
-/*Font of name*/
+/*Font of name Positio den ng name*/
 h1#name {
-  position: absolute;
+  position: relative;
+  top:-30px;
+  left:410px;
   font-family: "Rozha One", serif;
   font-size: 70px;
 }
 /*font of career and position absolute kasi sa center text eto kulay*/
 h2#career {
-  position: absolute;
-  top: 135px;
-  left: 50px;
+  position: relative;
+  top:-60px;
+  left: 470px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
   word-spacing: 5px;
@@ -63,34 +64,37 @@ h2#career {
 }
 /*Start ng project collection*/
 div#projectCollection {
-  position: relative;
-  top: 800px;
-  left: 50px;
-  width: 100px;
-  height: 100px;
-  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+div#projectCollection > div.project
+{
+  margin-right: 50px;
 }
 /*Starting location ng first image*/
 div.project {
-  position: absolute;
+  position: relative;
+  left:30px;
 }
 /*Starting effect*/
 div.effect {
   position: absolute;
-  background-color: grey;
+  background-color: black;
   width: 525px;
   height: 400px;
   top: 0px;
   left: 0px;
-  opacity: 75%;
+  opacity: 65%;
   display: none;
 }
 /*PROJECT TITLE CUSTOMIZATION*/
 h1.projectTitle {
-  position: absolute;
-  top: 120px;
+  text-align: center;
+  margin-top:120px;
   font-family: "Rozha One", serif;
-  font-size: 80px;
+  font-size: 70px;
+  color:white;
 }
 div.project:hover div.effect {
   display: inline;
