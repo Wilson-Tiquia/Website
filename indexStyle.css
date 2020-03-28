@@ -68,8 +68,8 @@ div#projectCollection {
   flex-direction: row;
   flex-wrap: wrap;
 }
-div#projectCollection > div.project
-{
+/*Para may space sa images*/
+div#projectCollection > div.project {
   margin-right: 50px;
 }
 /*Starting location ng first image*/
