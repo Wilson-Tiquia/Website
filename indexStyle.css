@@ -71,6 +71,7 @@ div#projectCollection {
 /*Para may space sa images*/
 div#projectCollection > div.project {
   margin-right: 50px;
+  margin-left:20px;
 }
 /*Starting location ng first image*/
 div.project {
